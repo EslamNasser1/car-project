@@ -455,10 +455,7 @@ section {
 
 
 }
-.vehicles .vehicles-slider .wrapper .box{
 
-    display: inline;
-}
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -557,4 +554,16 @@ section {
 .services .box-container .box{
     font-size: 20px;
     padding: 30px;
+}
+.box{
+     align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    padding: auto;
+    
+}
+.content{
+    align-items: left;
+    
 }
