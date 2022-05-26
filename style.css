@@ -338,6 +338,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
+    width: 100%;
 
 }
 
@@ -439,10 +440,7 @@ section {
 }
 
 @media (max-width:450px) {
-    .box img{
-         width:90%;
-        height: 25rem;
-    }
+    
     html {
         font-size: 50%;
     }
